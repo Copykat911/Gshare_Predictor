@@ -1,0 +1,50 @@
+ 
+  ██████╗ ███████╗██╗  ██╗ █████╗ ██████╗ ███████╗
+ ██╔════╝ ██╔════╝██║  ██║██╔══██╗██╔══██╗██╔════╝
+ ██║  ███╗███████╗███████║███████║██████╔╝█████╗
+ ██║   ██║╚════██║██╔══██║██╔══██║██╔══██╗██╔══╝
+ ╚██████╔╝███████║██║  ██║██║  ██║██║  ██║███████╗
+  ╚═════╝ ╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝
+
+  ///////////////////////////////////////////////////
+
+  ╔╦╗┬┌─┐┬ ┬┌─┐┌─┐┬    ╔═╗┌─┐┬ ┬┬ ┬┌┬┐┌─┐┌─┐┬ ┬┌─┐┬─┐
+  ║║║││  ├─┤├─┤├┤ │    ╚═╗│  ├─┤│ ││││├─┤│  ├─┤├┤ ├┬┘
+  ╩ ╩┴└─┘┴ ┴┴ ┴└─┘┴─┘  ╚═╝└─┘┴ ┴└─┘┴ ┴┴ ┴└─┘┴ ┴└─┘┴└─
+
+  ╔═╗┌─┐┌┬┐┌─┐  ╔═╗┬─┐┌─┐┬ ┬
+  ║  │ ││││├─┘  ╠═╣├┬┘│  ├─┤
+  ╚═╝└─┘┴ ┴┴    ╩ ╩┴└─└─┘┴ ┴
+
+  ╔═╗┬─┐┌─┐ ┬┌─┐┌─┐┌┬┐  ┌┬┐┬ ┬┌─┐
+  ╠═╝├┬┘│ │ │├┤ │   │    │ ││││ │
+  ╩  ┴└─└─┘└┘└─┘└─┘ ┴    ┴ └┴┘└─┘
+  ///////////////////////////////////////////////////
+
+I have supplied Three ways to run the program. 
+All files were complied and run on Windows Subsystem for Linux.
+
+	1.)		I have supplied the main file (Gshare.c)
+				
+				Run:
+					g++ Gshare.c -o Gshare
+					./Gshare <M> <N> <Tracefile>
+
+	2.)		I have supplied a pre-compiled main program (Gshare.o)
+			
+				Run:
+					./Gshare <M> <N> <Tracefile>
+
+	3.)		I have supplied a Shell file (Various_Trials.sh), Which 
+			hold	all runs for the report. I have commented out the 
+			1KB trial thatI had supplied in the report.
+
+				Run:
+					chmod +x Various_Trials.sh
+					./Various_Trials.sh
+
+			Running the shell file will display a loading prompt on
+			the terminal while dumping the output into output.txt
+			(Prompt will read X/5. To run the 5th trial, uncomment 
+			in Various_Trials.sh)
+ 
